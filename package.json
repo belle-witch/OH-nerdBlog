@@ -1,0 +1,28 @@
+{
+  "name": "oh-nerdblog",
+  "version": "1.0.0",
+  "description": "a cms-style blog site for a dev to publish articles, blog posts, etcetera",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belle-witch/OH-nerdBlog.git"
+  },
+  "author": "OH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/belle-witch/OH-nerdBlog/issues"
+  },
+  "homepage": "https://github.com/belle-witch/OH-nerdBlog#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.3",
+    "dotenv": "^16.0.1",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.20.1"
+  }
+}
